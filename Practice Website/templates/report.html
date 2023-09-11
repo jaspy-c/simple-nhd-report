@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NHD Report</title>
+</head>
+<body>
+    <h1>NHD Report</h1>
+    <p>{{ nhd_report | safe }}</p>
+    <h1>Earthquake Hazard Information</h1>
+    <p>Fault Zone: {{ fault_zone_description | safe }}</p>
+    <p>Liquefaction Zone: {{ liquefaction_zone_description | safe }}</p>
+    <p>Landslide Zone: {{ landslide_zone_description | safe }}</p>
+</body>
+</html>
